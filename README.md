@@ -26,6 +26,7 @@ The following will just screw you:
 
 ```
 $ ./run_client_threading.py
+
 0: Start sending request...
 1: Start sending request...
 2: Start sending request...
@@ -39,6 +40,8 @@ $ ./run_client_threading.py
 ```
 
 ```
+$ ./run_client_gevent.py
+
 0: Start sending request...
 0: Greeter client received: Hello, you!
 1: Start sending request...
