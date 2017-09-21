@@ -37,6 +37,7 @@ $ ./run_client_threading.py
 0: Greeter client received: Hello, you!
 2: Greeter client received: Hello, you!
 4: Greeter client received: Hello, you!
+Elapsed: 2.02s
 ```
 
 ```
@@ -52,6 +53,7 @@ $ ./run_client_gevent.py
 3: Greeter client received: Hello, you!
 4: Start sending request...
 4: Greeter client received: Hello, you!
+Elapsed: 10.05s
 ```
 
 Congrats, 👻
